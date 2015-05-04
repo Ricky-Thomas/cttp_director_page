@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Ricky-Thomas/cttp_director_page",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "express-handlebars": "^2.0.1",
+    "express3-handlebars": "^0.5.2"
   }
 }
