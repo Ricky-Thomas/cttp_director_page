@@ -8,13 +8,13 @@ html{
 
     -webkit-text-size-adjust:100%
 
-   
+
 }
- 
+
 
 body{
 
-    margin:0    
+    margin:0
 
 }
 
@@ -50,7 +50,7 @@ audio:not([controls]){
 
 a{
 
-    background:transparent  
+    background:transparent
 
 }
 
@@ -62,7 +62,7 @@ a:active,a:hover{
 
 }
 
-    
+
 
 abbr[title]{
 
@@ -82,37 +82,37 @@ b,strong{
 
 dfn{
 
-    font-style:italic    
+    font-style:italic
 
 }
 
-    
+
 
 h1{
 
     font-size:2em;
 
-    margin:0.67em 0 
+    margin:0.67em 0
 
 }
 
 
 
-    
+
 
 mark{
 
         background:#ff0;
 
-        color:#000        
+        color:#000
 
 }
 
-  
+
 
 small{
 
-        font-size:80%        
+        font-size:80%
 
 }
 
@@ -130,11 +130,11 @@ sub,sup{
 
 }
 
-    
+
 
 sup{
 
-        top:-0.5em        
+        top:-0.5em
 
 }
 
@@ -7760,7 +7760,6 @@ body{
 	color: #53666e;
 	font-family: lato;
 	-webkit-font-smoothing: antialiased;
-	position: relative;
 	font-style: normal;
 	font-weight: 400;
 
@@ -7794,9 +7793,9 @@ line-height:64px
 
 h2{
 	font-size: 42px;
-	
+
 	line-height: 48px;
-	
+
 	color: #FFFFFF;
 
 }
@@ -7823,9 +7822,9 @@ line-height:30px
 
 h5{
 	font-size: 30px;
-	
+
 	line-height: 36px;
-	
+
 	color: #15a8e0;
 
 }
@@ -10163,4 +10162,40 @@ line-height:36px
 
 margin-bottom:10px
 
+}
+
+/*-----------------------Welcome Page----------------------------------*/
+
+#splash {
+  background-image: url("../images/crowd.png");
+  position: relative;
+  height: 94vh;
+  width: 100%;
+}
+
+#splash h1 {
+    font-size: 8em;
+    color: #b5cad4;
+    position: relative;
+    top: 25px;
+}
+
+#splash h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #b5cad4;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+
+#footer-ct {
+    position: absolute;
+    bottom: 0px;
+}
+
+#bottom-navigation {
+    width: 100vw;
+    background-color: transparent;
 }
