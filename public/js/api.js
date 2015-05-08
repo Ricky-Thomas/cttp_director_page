@@ -30,7 +30,8 @@
                      },
                      crossDomain: true,
                      success: function(data) {
-                         resolve(data)
+                         resolve(data);
+                         console.log(resolve(data))
                      },
                      error: function(err) {
                          reject(err.responseJSON);
