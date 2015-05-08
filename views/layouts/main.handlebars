@@ -30,7 +30,6 @@
     <script src="../../public/js/jquery.js"></script>
     <script src="../../public/css/vid.js"></script>
     <script src="../../public/js/login_form.js"></script>
-    <script src="../../public/js/application.js"></script>
     <!-- Including sandbox js boots you to a login page which I'm not connected to at this time -->
     <!-- <script src="js/sandbox.js"></script> -->
 
@@ -94,29 +93,7 @@
         <script>
             $(function() {
                 new CTTP.Navigation();
-
-                require(["../../public/js/api.js"],function(api){
-
-                    //promise chain
-                    //get roles for this director
-                    api.getDirectorRoles().then(function(data){
-                        console.log("My Roles")
-                        console.dir(data)
-                    }).then(function(){
-                        //get details for a single role
-                        return api.getRoleDetail(563)
-                    }).then(function(data){
-                        console.log("Role Detail:")
-                        console.dir(data);
-                    }).then(function(){
-                        //get auditions for a role
-                        return api.getRoleAuditions(563)
-                    }).then(function(data){
-                        console.log("Role Auditions:")
-                        console.dir(data);
-                    })
-                })
-
+                require(["./public/js/application.js"],function(application){});
             });
         </script>
 </body>
