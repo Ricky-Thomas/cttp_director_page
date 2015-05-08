@@ -7,10 +7,6 @@ function changeCSS(css){
     else $('head > link').filter(':first').replaceWith(defaultCSS);
 }
 
-$( document ).ready(function() {
-  var iframe_height = parseInt($('html').height());
-  window.parent.postMessage( iframe_height, 'http://www.designsave.com');
-});
 
 $(function(){
 
@@ -33,11 +29,6 @@ $(function(){
     e.preventDefault();
   });
 
-  formContainer.find('form').submit(function(e){
-    // Preventing form submissions. If you implement
-    // a backend, you might want to remove this code
-    e.preventDefault();
-  });
 
 
   // A helper function that checks for the
